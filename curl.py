@@ -216,7 +216,6 @@ def curl(url):
 
 
 # ----- 'MAIN METHOD' STARTS HERE -------
-# STILL NEED TO LET IT ALLOW PORT #
 
 url = input()
 curl(url)

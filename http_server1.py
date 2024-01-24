@@ -130,4 +130,6 @@ while True:
             client_sock.send(data.encode("utf-8"))
             data = file.read(1024)
 
+    # now we've transmitted the file and can close the socket
+    client_sock.close()
     

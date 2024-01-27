@@ -216,8 +216,9 @@ def curl(url):
 
 
 # ----- 'MAIN METHOD' STARTS HERE -------
+# STILL NEED TO LET IT ALLOW PORT #
 
-url = input()
+url = sys.argv[1]
 curl(url)
 
 

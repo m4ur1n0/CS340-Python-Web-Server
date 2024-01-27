@@ -23,7 +23,7 @@ def get_header_from_path(path):
 
     
     code_dict = {"200": "OK", "403": "Forbidden", "404": "Not Found"}
-    status_line = "HTTP/1.1 " + code + " " + code_dict.get(code)
+    status_line = "HTTP/1.0 " + code + " " + code_dict.get(code)
 
     # just hard coding text/html as the content type right now for ease
     content_type = "Content-Type: text/html"
@@ -132,4 +132,5 @@ while True:
 
     # now we've transmitted the file and can close the socket
     client_sock.close()
+
     

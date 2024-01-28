@@ -1,5 +1,5 @@
 # Python-Web-Server
-*'Languages' section is lying, this is mostly programmed in python, there just happen to be 4 html files.
+*'Languages' section is lying, this is mostly programmed in python, there just happen to be 4 html files, one of which is the file for the RFC 2616 webpage, which is large.
 
 Simple implementation of a web server in python. This project was really fun and it taught me a huge amount about http and using the sockets module in python. 
 

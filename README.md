@@ -1,4 +1,6 @@
-# CS340-Python-Web-Server
+# Python-Web-Server
+# analysis is lying, this is mostly programmed in python, there just happen to be 4 html files.
+
 Simple implementation of a web server in python. This project was really fun and it taught me a huge amount about http and using the sockets module in python. 
 
 http_client.py is my simple curl clone. it makes http/1.0 requests over the socket specified in arg[1] when run in terminal.
